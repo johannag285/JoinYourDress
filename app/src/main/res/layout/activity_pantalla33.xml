@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".Pantalla33">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="109dp"
+        android:text="¡Bienvenido!"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="261dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="230dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Tù nombre" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="99dp"
+        android:text="Continuar"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="58dp"
+        android:text="Cómo quieres que te llamemos:"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
